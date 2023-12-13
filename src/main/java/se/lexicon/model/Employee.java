@@ -14,6 +14,11 @@ public class Employee {
 
     private double extraSalary;
 
+    private SalesPerson salesPerson;
+
+    private SystemDeveloper systemDeveloper;
+
+
 
 
 
@@ -33,6 +38,7 @@ public class Employee {
     }
 
     public double getSalary() {
+        //salary = salary + salesPerson.getAcquiredClients().size();
         return salary;
     }
 

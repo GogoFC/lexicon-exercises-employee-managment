@@ -1,5 +1,6 @@
 package se.lexicon;
 
+import se.lexicon.model.Employee;
 import se.lexicon.model.SalesPerson;
 import se.lexicon.model.SystemDeveloper;
 
@@ -22,5 +23,8 @@ public class Main {
 
         System.out.println(amra.getSalary());
         System.out.println(amra.getBonus());
+
+        //Employee amra2 = new Employee("Amra",LocalDate.now());
+        //System.out.println(amra2.getSalary());
     }
 }
