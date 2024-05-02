@@ -3,7 +3,7 @@ package se.lexicon.model;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class Employee {
+public abstract class Employee {
 
     private int id;
 
@@ -38,7 +38,9 @@ public class Employee {
     }
 
     public double getSalary() {
-        //salary = salary + salesPerson.getAcquiredClients().size();
+        SalesPerson systemDeveloper1 = new SalesPerson("Dude",LocalDate.now());
+        salary = salary + systemDeveloper1.getAcquiredClients().size() * 1000;
+
         return salary;
     }
 

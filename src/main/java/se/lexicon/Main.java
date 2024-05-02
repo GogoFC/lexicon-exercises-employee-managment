@@ -26,5 +26,6 @@ public class Main {
 
         //Employee amra2 = new Employee("Amra",LocalDate.now());
         //System.out.println(amra2.getSalary());
+        
     }
 }
